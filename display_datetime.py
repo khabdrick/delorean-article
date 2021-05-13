@@ -5,3 +5,7 @@ print ("date and time = ",dt_tm)
 
 dt = Delorean().date 
 print ("date = ",dt)
+
+tm = Delorean().datetime.time()
+print ("time = ",tm)
+
