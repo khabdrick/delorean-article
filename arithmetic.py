@@ -13,4 +13,5 @@ dt_tm_ago -= datetime.timedelta(days=3)
 print("Date 3 days ago is ", dt_tm_ago)
 
 
-ch_day = Delorean(datetime(2021, 5, 27))
+ch_day = Delorean(datetime=datetime.datetime(2021, 5, 27), timezone='utc')
+print(ch_day)
