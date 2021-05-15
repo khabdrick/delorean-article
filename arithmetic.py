@@ -25,8 +25,8 @@ print("Altered time is ", altered_tm)
 print("Altered date is ", altered_dt)
 
 
-trun_min = present_date.truncate('hour')
-print("trun_min = ", trun_min)
+trun_hour = present_date.truncate('hour')
+print("trun_hour = ", trun_hour)
 
 d = Delorean(datetime=datetime.datetime(2021, 5, 15, 3, 50, 00, 34223), timezone="UTC")
 trun_sec = d.truncate('second')
