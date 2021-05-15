@@ -10,3 +10,8 @@ print ("date = ",dt)
 tm = change_tz.datetime.time()
 print ("time = ",tm)
 
+nxt_fri = dt_tm.next_friday()
+print ("date for next week friday is = ", nxt_fri)
+
+
+
