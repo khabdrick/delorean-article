@@ -25,11 +25,11 @@ print("Altered time is ", altered_tm)
 print("Altered date is ", altered_dt)
 
 
-trun_min = d.truncate('minute')
-trun_sec = d.truncate('second')
+trun_min = present_date.truncate('minute')
+trun_sec = present_date.truncate('second')
 
-trun_day = d.truncate('day')
-trun_month = d.truncate('month')
+trun_day = present_date.truncate('day')
+trun_month = present_date.truncate('month')
 print("trun_min = ", trun_min)
 print("trun_sec = ", trun_sec)
 print("trun_day = ", trun_day)
