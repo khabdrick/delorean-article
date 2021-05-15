@@ -10,6 +10,10 @@ print ("date = ",dt)
 tm = change_tz.datetime.time()
 print ("time = ",tm)
 
+#display naive datetime
+naive_dt_tm = dt_tm.naive #new
+print ("Naive datetime is",naive_dt_tm)  #new
+
 nxt_fri = dt_tm.next_friday()
 print ("date for next week friday is = ", nxt_fri)
 
