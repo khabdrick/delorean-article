@@ -14,4 +14,10 @@ nxt_fri = dt_tm.next_friday()
 print ("date for next week friday is = ", nxt_fri)
 
 
+# Date for Two Fridays ago
+last_2_tues = dt_tm.last_fiday(2)
+print ("date for 2 Fridays ago", last_2_tues)
 
+# Get Two Fridays from now at midnight
+next_2_fris_midnight = dt_tm.next_friday(2).midnight
+print ("Two Fridays from now at midnight is ", next_2_fris_midnight)
