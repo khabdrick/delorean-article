@@ -12,14 +12,7 @@ naive_dt_tm = dt_tm.naive #new
 print ("Naive datetime is",naive_dt_tm)  #new
 
 change_tz = dt_tm.shift('Africa/Lagos')
-print ("date and time = ",dt_tm)
-
-dt = change_tz.date 
-print ("date = ",dt)
-
-tm = change_tz.datetime.time()
-print ("time = ",tm)
-
+print ("date and time after changing timezone = ",change_tz)
 
 
 nxt_fri = dt_tm.next_friday()
